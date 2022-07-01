@@ -1,4 +1,4 @@
-class RockPaperScissors {
+export class RockPaperScissors {
   constructor(username) {
     this.username = username;
     this.score = {
@@ -13,7 +13,7 @@ class RockPaperScissors {
    * using Math.random() method, you should be able to get one of the following values
    */
   generateCPUResponse(){
-    var acceptedValues = [ `rock`, `paper`, `scissors` ];
+    let acceptedValues = [ `rock`, `paper`, `scissors` ];
     const randomIndexNumber = Math.floor(Math.random() * 3); 
 
     return acceptedValues[randomIndexNumber];
