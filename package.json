@@ -5,7 +5,9 @@
   "scripts": {
     "start": "open index.html",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
   "license": "UNLICENSED",
