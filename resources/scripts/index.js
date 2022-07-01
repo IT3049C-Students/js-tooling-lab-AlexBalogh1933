@@ -64,3 +64,5 @@ resetGameButton.addEventListener(`click`, function(e) {
   gameScreen.classList.add(`d-none`);
   resetGameButton.classList.add(`d-none`);
 })
+
+//This is just to have a new commit
